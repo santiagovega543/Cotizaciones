@@ -1,0 +1,140 @@
+html { height: 100%; }
+
+body {
+    text-align: center;
+    background: rgb(44,62,80);
+    background: linear-gradient(90deg, rgba(44,62,80,1) 0%, rgba(52,152,219,1) 100%);
+    color: aliceblue;
+    font-family: "Noto Sans", sans-serif;
+    min-height:100%; 
+}
+
+.estilodiv {
+    color: aliceblue;
+    width: 50%;
+    background: rgb(44,62,80);
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+    border-style: groove;
+    border: white;
+    border-radius: 25px;
+    border-style: double;
+    border-color: black;
+}
+
+.estilodiv input {
+    text-align: center;
+    border-radius: 8px;
+    height: 40px;
+    font-weight: bolder;
+}
+
+.estilodiv select {
+    text-align: center;
+    border-radius: 8px;
+    height: 40px;
+}
+
+.res {
+    margin-top: 1.6%;
+}
+
+.otrres {
+    padding: 0.01%;
+    margin: auto;
+    margin-top: 1%;
+    width: 30%;
+}
+
+#resultadoUSD, #resultadoGBP{
+    margin-bottom: 7%;
+}
+
+#cantidad {
+    width: 800px;
+}
+
+#selmoneda {
+    text-align: center;
+}
+
+.libre {
+    margin: auto;
+    width: 60%;
+    padding: 1.6%;
+    margin-bottom: 20%;
+}
+
+#selmonedalibredestino {
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.top {
+    margin-top: 5%;
+    font-size: 380%;
+}
+
+.general {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+#btnmostrarcont {
+    width: 15%;
+    border-style: double;
+    border-color: black;
+}
+
+#cantidad, #selmoneda, #boton, #cantidadlibre, #botonlibre {
+    margin-right: 1%;
+}
+
+#gen {
+    margin-bottom: 100px;
+}
+
+#selmoneda {
+    text-align: center;
+}
+
+.footer {  
+  height: 80px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blanchedalmond;
+  color: black;
+  text-align: center;
+}
+
+.ult {
+    /* float: right; */
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.both {
+    margin-top: 2%;
+}
+
+#cantidad, #resultado, #boton {
+    font-size: 20px;
+}
+
+#selmoneda {
+    padding: 1%;
+}
+
+#cantidad:checked {
+    border-color: blueviolet;
+}
+
+
+
